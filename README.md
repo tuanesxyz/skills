@@ -1,10 +1,18 @@
 # Skills
 
-A collection of reusable, task-focused skills for AI agents.
+A collection of reusable AI agent skills for UX, product design, and portfolio case studies.
 
-Each skill packages focused instructions and any supporting resources needed for a specific kind of work. Skills live in their own directories and can be used independently.
+This repository brings together focused instructions that help AI agents support design work: organize information, make reasoning and decisions clearer, and turn project material into thoughtful, evidence-led portfolio stories. Each skill is designed to work on its own and adapt to different projects, teams, and visual identities.
 
-## Repository structure
+## What you'll find
+
+- Practical workflows for UX and product design
+- Guidance for structuring and communicating portfolio case studies
+- Supporting references, scripts, or assets when they are useful to a skill
+
+## How skills are organized
+
+Each skill lives in its own directory. The required `SKILL.md` explains its purpose, when to use it, and the workflow it supports. Optional resources are included only when they help with that specific task.
 
 ```text
 <skill-name>/
@@ -14,20 +22,10 @@ Each skill packages focused instructions and any supporting resources needed for
 └── assets/       # optional
 ```
 
-The `SKILL.md` file describes the skill's purpose, when it applies, and how to use it. Supporting folders are included only when a skill needs them.
+## Using a skill
 
-## Use a skill
+Choose a skill directory and copy the whole folder to the skills location configured for your AI agent, preserving its structure. Then use the discovery or invocation method supported by that agent. Installation paths and activation vary by tool, so follow its documentation.
 
-1. Choose a skill directory in this repository.
-2. Copy the entire directory into the skills location configured for your AI agent, preserving its internal structure.
-3. Use your agent's supported skill discovery or invocation method.
+## Creator
 
-Installation paths and activation vary by tool. Follow your AI agent's documentation.
-
-## Design goals
-
-- Focused guidance for a specific task
-- Reusable across projects and teams
-- No assumptions about a particular brand or client
-- Clear links to any supporting resources
-- Careful handling of private and client information
+Created and maintained by **Thuany Serpa**, this collection makes practical workflows for UX, product design, and portfolio storytelling easier to reuse, adapt, and share.
